@@ -16,7 +16,7 @@ increaseButtonEl.addEventListener('click', ()=>{
         counterTitle.textContent = 'Limit Exceeded';
         counterValueEl.textContent = 5;
     }
-    console.log(cur);
+    //console.log(cur);
 });
 
 decreaseButtonEl.addEventListener('click',()=>{    
@@ -33,7 +33,7 @@ resetButtonEl.addEventListener('click', ()=>{
     if(cur>0){
         counterValueEl.textContent = 0;
         counterTitle.textContent = 'Fancy Counter';
-        console.log(cur);
+        //console.log(cur);
     }
 });
 
